@@ -221,6 +221,7 @@ from langchain.memory import ConversationBufferMemory
 llm = ChatOpenAI(
     temperature=0.1,  # 창의성 (0.0 ~ 2.0)
     model_name="gpt-4o",  # 모델명
+    openai_api_key=openai_api_key,
 )
 
 # Memory for storing conversation history
