@@ -33,8 +33,12 @@ load_dotenv()
 openai_api_key = st.secrets["OPENAI_API_KEY"]
 pinecone_api_key = st.secrets["PINECONE_API_KEY"]
 
-if not openai_api_key or not pinecone_api_key:
-    raise ValueError("API 키가 Streamlit Secrets에 설정되지 않았습니다.")
+# API 키 가져오기
+openai_api_key = os.getenv("OPENAI_API_KEY")
+pinecone_api_key = os.getenv("PINECONE_API_KEY")
+
+# if not openai_api_key or not pinecone_api_key:
+#    raise ValueError("API 키가 Streamlit Secrets에 설정되지 않았습니다.")
 
 openai.api_key = openai_api_key
 # pinecone_api_key= os.getenv("PINECONE_API_KEY")
