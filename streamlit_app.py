@@ -1103,7 +1103,7 @@ with st.container():
                                         <img src="https://cdn-icons-png.flaticon.com/512/25/25284.png" 
                                             alt="Link Icon" 
                                             style="width: 14px; height: 14px; vertical-align: middle; margin-right: 5px;" />
-                                        <span style="font-size: 12px;">숙소정보 확인</span>
+                                        <span style="font-size: 12px;">예약하기</span>
                                     </a>
                                 </p>
                             </div>
@@ -1121,7 +1121,7 @@ with st.container():
                                         <img src="https://cdn-icons-png.flaticon.com/512/25/25284.png" 
                                             alt="Link Icon" 
                                             style="width: 14px; height: 14px; vertical-align: middle; margin-right: 5px;" />
-                                        <span style="font-size: 14px;">숙소정보 확인</span>
+                                        <span style="font-size: 14px;">예약하기</span>
                                     </a>
                                 </p>
                             </div>
