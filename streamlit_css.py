@@ -359,7 +359,7 @@ def get_css():
             font-weight: 600;
             font-size: 24px;
             color: black;
-            margin: 5px 0;
+            margin: 10px 0;
         }
         .header-subtitle {
             font-size: 16px;
