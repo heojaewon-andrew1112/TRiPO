@@ -771,10 +771,10 @@ with st.sidebar:
 
         accommodations = {
             "공항 근처 숙소": "Accommodation near the airport",
-            "4성급 이상 호텔": "4-star or higher hotel",
+            "4성급 이상 호텔": "super deluxe 5-star hotel",
             "수영장이 있는 숙소": "with a swimming pool",
             "게스트 하우스": "Guest house",
-            "민박집": "Bed and Breakfast",
+            "호스텔": "hostel",
             "전통가옥": "Traditional house",
         }
 
