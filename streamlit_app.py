@@ -45,7 +45,7 @@ import openai
 openai.api_key = openai_api_key
 
 # 페이지 설정
-st.set_page_config(page_title="Travel Planner Chatbot", layout="wide")
+st.set_page_config(page_title="TRiPO", layout="wide")
 
 ########################################## CHATBOT ##########################################
 
